@@ -1,0 +1,254 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+html {
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #2a2a2a;
+    border: 2px solid #2a2a2a;
+    transition: all ease 0.3s;
+    margin-top: 15px;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #2a2a2a;
+    border: 2px solid #2a2a2a;
+}
+
+.btn-secondary {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+}
+
+/* header */
+
+.header-container {
+    width: 18vw;
+    min-height: 100%;
+    height: 100%;
+    background: #111;
+    padding: 25px 20px 0 20px;
+    border-right: 1px solid #2a2a2a;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-container .logo-container {
+    height: 20%;
+}
+
+.header-container .logo-container a {
+    width: 55%;
+    margin: 0 auto;
+    display: block;
+}
+
+.header-container .logo-container img {
+    max-width: 100%;
+    width: 125px;
+}
+
+.menu-container {
+    height: 60%;
+}
+
+.menu-container .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.menu-container .menu .menu-item {
+    margin: 15px;
+}
+
+.menu-container .menu .menu-item a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.account-container {
+    height: 20%;
+}
+
+.account-container .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.account-container .menu .menu-item {
+    margin: 15px;
+}
+
+.account-container .menu .menu-item a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* welcome page */
+
+.home-games-title h1, .shop-games-title h1, .mylibrary-title-container h1, .mygames-title-container h1 {
+    margin: 30px 0;
+    font-weight: 900;
+}
+
+#cards-container {
+    margin-bottom: 30px;
+}
+
+/* game create page */
+
+#game-create-container {
+    padding: 30px;
+}
+
+#game-create-container label {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#game-create-container input,
+#game-create-container select,
+#game-create-container textarea {
+    font-size: 16px;
+}
+
+#game-create-container textarea {
+    margin-bottom: 22px;
+}
+
+/* show game page */
+
+#image-container, #info-container {
+    margin: 30px 0;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
+
+#items-list li span {
+    display: flex;
+    align-items: center;
+}
+
+#already-pucharsed {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* search */
+
+#search-container {
+    margin-bottom: 30px;
+}
+
+/* edit page */
+
+.img-preview {
+    max-width: 100px;
+}
+
+/* edit Account */
+#edit-account-container {
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+#edit-account-container label {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#edit-account-container input,
+#edit-account-container select,
+#edit-account-container textarea {
+    font-size: 16px;
+}
+
+#account-preview-container {
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+.footer-container {
+    width: 100%;
+    background: #111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.footer-container p {
+    color: #fff;
+    margin: 0;
+}
